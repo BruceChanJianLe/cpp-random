@@ -17,8 +17,8 @@ int main(int argc, char ** argv)
     std::uniform_real_distribution<> distr_double(-3.0, 5.0);   // uniform_real_distribution make sure the double value is within a range you set
 
     // Using the random generator
-    std::cout << "Random int: " << distr_int(eng)<< std::endl;
-    std::cout << "Random double: " << distr_double(eng) << std::endl;
+    std::cout << "Random int: " << distr_int(eng) << std::endl;
+    // std::cout << "Random double: " << distr_double(eng) << std::endl;
 
     return 0;
 }
